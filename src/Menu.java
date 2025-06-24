@@ -186,6 +186,8 @@ public class Menu extends javax.swing.JFrame {
 
         return conexion;
     }
+        
+        //comentario para la clase 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
