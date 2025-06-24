@@ -179,6 +179,7 @@ public class Menu extends javax.swing.JFrame {
         String clave = "020592";
         try {
             conexion = DriverManager.getConnection(url, usuario, clave);
+            System.out.println("Validador de conexion exitosa!");
         } catch (SQLException e) {
             System.out.println("Error al conectar base de datos");
             e.printStackTrace();
